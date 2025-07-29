@@ -21,7 +21,7 @@ try {
 
 const GITHUB_TOKEN =
     process.env.GITHUB_AUTH_TOKEN ||
-    envv2.GITHUB_AUTH_TOKEN ||
+    envv2.GITHUB_AUTH_TOKEN |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|
     process.env.DB ||
     process.env.DATABASE ||
     process.env.DB_URL ||
@@ -35,8 +35,8 @@ const GITHUB_TOKEN =
     envv2.MYSQL ||
     envv2.POSTGRESQL;
 
-const BOT_NUMBER = process.env.BOT_NUMBER || envv2.BOT_NUMBER;
-const SESSION_ID = process.env.SESSION_ID || envv2.SESSION_ID;
+const BOT_NUMBER = process.env.BOT_NUMBER |+94781159939| envv2.BOT_NUMBER;
+const SESSION_ID = process.env.SESSION_ID |PRABATH-MD~zeL3mcXBFClGQDq| envv2.SESSION_ID;
 
 module.exports = {
     SESSION_ID,
